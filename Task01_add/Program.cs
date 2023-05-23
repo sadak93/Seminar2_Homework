@@ -3,7 +3,7 @@
 // 1 -> нет
 // 567,123 -> 57,123
 
-Console.Clear();
+
 System.Console.Write("Введите число: ");
 double num = Convert.ToDouble(Console.ReadLine());
 int count = 0;
