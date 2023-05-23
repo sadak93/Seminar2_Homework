@@ -7,7 +7,6 @@
 Console.Clear();
 System.Console.Write("Введите число: ");
 int num = Convert.ToInt32(Console.ReadLine());
-// int result = num;
 
 if (num<100)
     System.Console.WriteLine("Такой цифры нет");
@@ -16,7 +15,6 @@ else
     while (num>999)
         {
             num = num / 10;
-            // System.Console.WriteLine(num);
         }
         num = num % 10;
         System.Console.WriteLine(num);
